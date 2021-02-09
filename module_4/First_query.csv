@@ -1,0 +1,4 @@
+departure_airport,arrival_airport,city,flights_number,model,aircraft_code
+AAQ,EGO,Belgorod,59,Sukhoi Superjet-100,SU9
+AAQ,NOZ,Novokuznetsk,9,Boeing 737-300,733
+AAQ,SVO,Moscow,59,Boeing 737-300,733
