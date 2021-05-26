@@ -1,0 +1,51 @@
+Проект выполнен в команде 'BALU':
+
+Lyubov Utkina     https://www.kaggle.com/lemura
+
+Alexey Blinnikov  https://www.kaggle.com/alexeyblinnikov
+
+
+Задача
+Прогнозирование стоимости автомобиля по характеристикам.
+https://www.kaggle.com/c/sf-dst-car-price-prediction/overview
+
+Результаты.
+
+В результате работы удалось существенно улучшить baseline.
+Лучшие результаты на обучающих данных показала модель CatBoost, значение метрики MAPE 0.1325
+Перспективны модели RandomForest и ExtraTreesRegressor.
+Хотя в процессе командной работы сложилось некоторое разделение труда, работали параллельно, 
+вникая в детали и обмениваясь опытом и идеями.
+
+
+
+Входные данные
+
+test.csv - Тестовая выборка данных для предсказаний на Kaggle
+https://www.kaggle.com/c/sf-dst-car-price-prediction/data?select=test.csv
+
+all_auto_ru_09_09_2020.csv - Старый парсинг данных, предоставленный с baseline проекта.
+https://www.kaggle.com/sokolovaleks/parsing-all-moscow-auto-ru-09-09-2020?select=all_auto_ru_09_09_2020.csv
+
+extended_train.csv - Результат парсинга
+https://www.kaggle.com/alexeyblinnikov/car-price-spring-2021?select=extended_train.csv
+
+sample_submission.csv - Файл содержит формат ответа
+https://www.kaggle.com/c/sf-dst-car-price-prediction/data?select=sample_submission.csv
+
+
+Ноутбуки
+Car_Price_BALU.ipynb - Основной Notebook, в котором производилась работа.
+В каггле: https://www.kaggle.com/alexeyblinnikov/car-price-balu
+
+CarPrice_parsing_april_2021.ipynb - Ноутбук с парсингом данных.
+
+Model_testing.ipynb - Ноутбук с поиском моделей по Lazy Predict и подбору оптимальных гиперпараметров.
+
+
+Данные
+alt_data.csv - обработанные данные, использовали для тестирования моделей
+band_model.csv - пары бренд-модель для парсинга.
+
+Данные, полученные в результате парсинга, а также тестовую выборку на github не загружали из-за размера.
+
