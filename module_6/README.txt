@@ -13,6 +13,7 @@ https://www.kaggle.com/c/sf-dst-car-price-prediction/overview
 
 В результате работы удалось существенно улучшить baseline.
 Лучшие результаты на обучающих данных показала модель CatBoost, значение метрики MAPE 0.1325
+В соревновании на каггл лучшие результаты у ручного стекинга - 15.74%.
 Перспективны модели RandomForest и ExtraTreesRegressor.
 Хотя в процессе командной работы сложилось некоторое разделение труда, работали параллельно, 
 вникая в детали и обмениваясь опытом и идеями.
@@ -35,7 +36,7 @@ https://www.kaggle.com/c/sf-dst-car-price-prediction/data?select=sample_submissi
 
 
 Ноутбуки
-Car_Price_BALU.ipynb - Основной Notebook, в котором производилась работа.
+car_Price_balu.ipynb - Основной Notebook, в котором производилась работа.
 https://github.com/Lyubov-Utkina/Modules/blob/master/module_6/car-price-balu.ipynb
 В каггле: https://www.kaggle.com/alexeyblinnikov/car-price-balu
 
@@ -53,5 +54,5 @@ https://github.com/Lyubov-Utkina/Modules/blob/master/module_6/alt_data.csv
 band_model.csv - пары бренд-модель для парсинга.
 https://github.com/Lyubov-Utkina/Modules/blob/master/module_6/band_model.csv
 
-Данные, полученные в результате парсинга, а также тестовую выборку на github не загружали из-за размера.
+Данные, полученные в результате парсинга, а также тестовую выборку на github не загрузила из-за размера.
 
