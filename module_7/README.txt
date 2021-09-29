@@ -7,6 +7,12 @@ Lyubov Utkina     https://www.kaggle.com/lemura
 https://www.kaggle.com/c/sf-dst-car-price-prediction-part2/overview
 
 
+Часть проекта, включающая в себя обработку данных, основана на предыдущем проекте,
+который был выполнен в команде 'BALU'
+https://github.com/Lyubov-Utkina/Modules/blob/master/module_6/car-price-balu.ipynb
+В каггле: https://www.kaggle.com/alexeyblinnikov/car-price-balu
+
+
 Результаты.
 
 1. На тренировочной выборке лучше всего сработал блэндинг CatBoost и нейросети, 
@@ -34,6 +40,7 @@ https://www.kaggle.com/c/sf-dst-car-price-prediction-part2/data?select=img
 Ноутбуки
 
 Project_7.ipynb - Основной Notebook, в котором производилась работа.
+https://github.com/Lyubov-Utkina/Modules/blob/master/module_7/Project_7.ipynb
 
 
 
